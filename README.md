@@ -39,12 +39,14 @@ El valor de Z se mantiene en cero para conservar la figura en dos dimensiones.
 Posteriormente se crean las conexiones entre vértices mediante otro ciclo, utilizando el operador módulo (%) para cerrar correctamente la figura.
 
 Finalmente, el objeto es vinculado a la colección activa y se actualiza la malla para visualizar el resultado.
+![código](código.png)
 
 5. Resultados
 
 Al ejecutar el script se obtuvo un polígono regular de seis lados (hexágono) con radio 5, centrado en el origen del plano XY.
 
 El sistema permite modificar fácilmente el número de lados y el radio, generando diferentes polígonos regulares sin necesidad de modelado manual.
+![Hexagono Generado](Resultados.png)
 
 6. Conclusiones
 
